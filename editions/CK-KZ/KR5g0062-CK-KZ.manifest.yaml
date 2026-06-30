@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0062/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0062/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 道法心傳
+  date: '2015-08-29 02:53:33.116756'
+  source:
+    repository: kanripo
+    path: KR5g0062
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0062_000-CK-KZ.yaml, hash: 'sha256:a0880a6efe9bdd4d8d499d25884f24b7d7b40b3077a5ad6bb2a56dd410179582'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0062_000-CK-KZ.markers.yaml, hash: 'sha256:0eb2326506a4c7af1098a673faf881caba426773bf1c545ddc686e857169b235'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0062_CK-KZ_01p001a
+    span:
+    - body
+    - 0
+    - 8101
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:fa29e25a1d67bd9446fa1941303fd97730d4b87b7a59fb8b98d782db4766ee2d
